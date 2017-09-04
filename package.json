@@ -1,0 +1,46 @@
+{
+    "author": "r0cool01@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.4"
+    },
+    "keywords": [],
+    "name": "kamet-zigzag",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "KaMet ZigZag",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "HOUR",
+            "MINUTE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "IMG_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bkgd.png",
+                    "name": "IMG_OVERLAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "1fa35ebe-f573-45c8-bbf2-0635c722893a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
